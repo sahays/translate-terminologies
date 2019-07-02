@@ -8,7 +8,7 @@ using Amazon.Translate;
 using Amazon.Translate.Model;
 using Microsoft.Extensions.Configuration;
 
-namespace amazon_translate {
+namespace translate_terminologies {
 	class Program {
 		const string EnglishText = @"Amazon Translate is a text translation service that uses advanced machine learning technologies to provide high-quality translation on demand.";
 		const string TerminologyName = "Preserve_Amazon_Translate";
