@@ -26,6 +26,15 @@ Source: Amazon Translate is a text translation service that uses advanced machin
 Translation: अमेज़ॅन अनुवाद एक पाठ अनुवाद सेवा है जो मांग पर उच्च गुणवत्ता वाले अनुवाद प्रदान करने के लिए उन्नत मशीन सीखने की तकनीकों का उपयोग करती है।
 ```
 
+Result after applying custom Terminology that retains the keyword "Amazon
+Translate":
+
+```
+After applying custom terminology:
+Preserve_Amazon_Translate
+Translation: Amazon Translate एक पाठ अनुवाद सेवा है जो मांग पर उच्च गुणवत्ता वाले अनुवाद प्रदान करने के लिए उन्नत मशीन सीखने की तकनीकों का उपयोग करती है।
+```
+
 # Dependencies
 
 appsettings.json file uses your default AWS profile so that you don't have to
@@ -56,6 +65,9 @@ as part of the build process
 <ItemGroup>
     <None Update="appsettings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="custom-terminology.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
 </ItemGroup>
 ```
