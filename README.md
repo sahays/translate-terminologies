@@ -26,13 +26,16 @@ Source: Amazon Translate is a text translation service that uses advanced machin
 Translation: अमेज़ॅन अनुवाद एक पाठ अनुवाद सेवा है जो मांग पर उच्च गुणवत्ता वाले अनुवाद प्रदान करने के लिए उन्नत मशीन सीखने की तकनीकों का उपयोग करती है।
 ```
 
-Result after applying custom Terminology that retains the keyword "Amazon
-Translate":
+Result after applying
+[custom Terminology](https://docs.aws.amazon.com/translate/latest/dg/how-custom-terminology.html)
+that helps retain the keywords "Amazon Translate", and "Machine Learning" with
+help of a
+[csv terminology file](https://docs.aws.amazon.com/translate/latest/dg/using-ct.html)
 
 ```
 After applying custom terminology:
 Preserve_Amazon_Translate
-Translation: Amazon Translate एक पाठ अनुवाद सेवा है जो मांग पर उच्च गुणवत्ता वाले अनुवाद प्रदान करने के लिए उन्नत मशीन सीखने की तकनीकों का उपयोग करती है।
+Translation: Amazon Translate एक पाठ अनुवाद सेवा है जो मांग पर उच्च गुणवत्ता वाले अनुवाद प्रदान करने के लिए उन्नत Machine Learning की तकनीकों का उपयोग करती है।
 ```
 
 # Dependencies
