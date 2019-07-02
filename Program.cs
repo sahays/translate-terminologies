@@ -33,7 +33,7 @@ namespace amazon_translate {
 
 			// set terminology
 			Console.WriteLine("Setting a custom Terminology...");
-			service.SetTerminolgies(TerminologyName, memoryStream).Wait();
+			service.SetTerminolgy(TerminologyName, memoryStream).Wait();
 
 			// query with terminology
 			var terminologies = new List<string>() { TerminologyName };
@@ -64,7 +64,7 @@ namespace amazon_translate {
 			this.translate = translate;
 		}
 
-		public async Task<ImportTerminologyResponse> SetTerminolgies(string name, MemoryStream fileStream) {
+		public async Task<ImportTerminologyResponse> SetTerminolgy(string name, MemoryStream fileStream) {
 			return await this.translate.ImportTerminologyAsync(new ImportTerminologyRequest {
 				Name = name,
 				MergeStrategy = MergeStrategy.OVERWRITE,
