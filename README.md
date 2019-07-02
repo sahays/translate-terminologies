@@ -42,8 +42,8 @@ set AWS credentials in clear text
 
 ### A quick walkthrough of the .csproj file
 
-dotnet-core.csproj file: required .NET libraries - these libraries will be
-auto-installed as part of the build process
+.csproj file: required .NET libraries - these libraries will be auto-installed
+as part of the build process
 
 ```
 <ItemGroup>
