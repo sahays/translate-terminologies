@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>amazon_translate</RootNamespace>
+    <RootNamespace>translate_terminologies</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

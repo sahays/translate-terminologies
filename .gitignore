@@ -9,6 +9,8 @@
 *.userosscache
 *.sln.docstates
 
+omnisharp.json
+
 .vscode
 
 # User-specific files (MonoDevelop/Xamarin Studio)
